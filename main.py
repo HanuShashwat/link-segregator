@@ -24,26 +24,26 @@ def main():
     # To use this, create 'liked_links.txt' and 'all_links.txt' in the same folder, 
     # paste your links in them (one link per line), and uncomment the two lines below:
     
-    # liked_links = read_links_from_file('liked_links.txt')
-    # all_links = read_links_from_file('all_links.txt')
+    liked_links = read_links_from_file('liked_links.txt')
+    all_links = read_links_from_file('all_links.txt')
     
     # --- OPTION 2: Hardcoded links (Useful for testing) ---
     # For demonstration, we'll use these hardcoded lists. 
     # You can replace these with your actual links if you prefer not to use files.
-    liked_links = [
-        "https://example.com/liked1",
-        "https://example.com/liked2",
-        "https://example.com/liked3"
-    ]
+    # liked_links = [
+    #     "https://example.com/liked1",
+    #     "https://example.com/liked2",
+    #     "https://example.com/liked3"
+    # ]
     
-    all_links = [
-        "https://example.com/disliked1",
-        "https://example.com/liked2",
-        "https://example.com/liked1",
-        "https://example.com/disliked2",
-        "https://example.com/liked3",
-        "https://example.com/disliked3"
-    ]
+    # all_links = [
+    #     "https://example.com/disliked1",
+    #     "https://example.com/liked2",
+    #     "https://example.com/liked1",
+    #     "https://example.com/disliked2",
+    #     "https://example.com/liked3",
+    #     "https://example.com/disliked3"
+    # ]
     
     print(f"Loaded {len(liked_links)} liked links and {len(all_links)} total links.")
     
